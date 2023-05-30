@@ -25,7 +25,7 @@ import porfolioImage8 from "../images/portfolio/portfolio-8.jpg";
 import porfolioImage9 from "../images/portfolio/portfolio-9.jpg";
 import porfolioImage10 from "../images/portfolio/portfolio-10.jpg";
 import porfolioImage11 from "../images/portfolio/portfolio-11.jpg";
-import profilepic from "../images/profilepic.jpg";
+import profilepic from "../images/profilepic.jpeg";
 import testimonialImage from "../images/testimonial.webp";
 import {
   About,
@@ -98,25 +98,21 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
-  aboutItems: [
-    { label: "Location", text: "Victoria, BC", Icon: MapIcon },
-    { label: "Age", text: "29", Icon: CalendarIcon },
-    { label: "Nationality", text: "Canadian / Irish", Icon: FlagIcon },
-    {
-      label: "Interests",
-      text: "Motorcycles, Muay Thai, Banjos",
-      Icon: SparklesIcon,
-    },
-    { label: "Study", text: "University of Victoria", Icon: AcademicCapIcon },
-    {
-      label: "Employment",
-      text: "Instant Domains, inc.",
-      Icon: BuildingOffice2Icon,
-    },
-  ],
+  description: (
+    <>
+      I'm a <strong className="text-stone-100">Frontend Web Developer </strong>
+      building the Front-end of Websites and Web Applications that leads to the
+      success of the overall products. <br /> <br /> I also like sharing content
+      related to the stuff that I have learned over the years in Web Development
+      so it can help other people of the Dev Community. Feel free to Connect or
+      Follow me on my Linkedin where I post useful content related to Web
+      Development and Programming <br /> <br /> I'm open to{" "}
+      <strong className="text-stone-100">Job</strong> opportunities where I can
+      contribute, learn and grow. If you have a good opportunity that matches my
+      skills and experience then don't hesitate to{" "}
+      <strong className="text-stone-100">contact</strong> me.
+    </>
+  ),
 };
 
 /**
