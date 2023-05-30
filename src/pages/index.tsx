@@ -5,6 +5,8 @@ import { homePageMeta } from "@/data/data";
 import Header from "@/components/Sections/Header";
 import Hero from "@/components/Sections/Hero";
 import About from "@/components/Sections/About";
+import Resume from "@/components/Sections/Resume";
+import Contact from "@/components/Sections/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +18,8 @@ const Home: FC = memo(() => {
       <Header />
       <Hero />
       <About />
+      <Resume />
+      <Contact />
     </Page>
   );
 });
