@@ -7,6 +7,7 @@ import Hero from "@/components/Sections/Hero";
 import About from "@/components/Sections/About";
 import Resume from "@/components/Sections/Resume";
 import Contact from "@/components/Sections/Contact";
+import Footer from "@/components/Sections/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ const Home: FC = memo(() => {
       <About />
       <Resume />
       <Contact />
+      <Footer />
     </Page>
   );
 });

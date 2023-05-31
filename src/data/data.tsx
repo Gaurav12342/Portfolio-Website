@@ -45,7 +45,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: "React Resume Template",
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Example site built with Gaurav Pendharkar's react resume template",
 };
 
 /**
@@ -120,7 +120,7 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: "Frontend Skills",
+    name: "Frontend development",
     skills: [
       {
         name: "JavaScript",
@@ -182,7 +182,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: "Third Party Library Skills",
+    name: "Third Party Library",
     skills: [
       {
         name: "Lodash",
@@ -246,7 +246,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: "Extra Skills",
+    name: "Extra's",
     skills: [
       {
         name: "PostMan",
@@ -291,7 +291,7 @@ export const skills: SkillGroup[] = [
   },
 
   {
-    name: "UI Library Skills",
+    name: "UI Library",
     skills: [
       {
         name: "Material UI",
@@ -419,11 +419,45 @@ export const experience: TimelineItem[] = [
     location: "Code Winglet Pvt. Ltd",
     title: "Sr. Front End Developer",
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies
-        you have been working with, and anything else that would be useful for
-        an employer to know.
-      </p>
+      <>
+        <p>
+          <strong>RH.com</strong>
+          <br />
+          Which is an upscale American home-furnishings company headquartered in
+          Corte Madera, California. The company sells its merchandise through
+          its retail stores, catalog, and online. In that, I have worked as a
+          frontend developer for full time.
+        </p>
+        <br />
+
+        <p>
+          <strong>OXIT.com</strong>
+          <br />
+          Describe work, special projects, notable achievements, what
+          technologies you have been working with, and anything else that would
+          be useful for an employer to know.
+        </p>
+        <br />
+
+        <p>
+          <strong>DIGIRYTE.com</strong>
+          <br />
+          Digiryte was born out of necessity with the mission to create superior
+          quality next generation applications using the latest technologies,
+          help startups and enterprises achieve faster growth by solving complex
+          digital challenges, and build more secure and robust applications with
+          our cross-functional team to deliver fast results.
+        </p>
+        <br />
+
+        <p>
+          <strong>LOTIC.ai</strong>
+          <br />
+          Lotic is a place for you to tell your story through short recordings.
+          It’s a safe, secure space for you to learn about yourself and identify
+          patterns in your thoughts, feelings, and behaviors.
+        </p>
+      </>
     ),
   },
   {
@@ -432,9 +466,13 @@ export const experience: TimelineItem[] = [
     title: "Programmer Analyst",
     content: (
       <p>
-        I am working on React JS as Front-End developer. Analyses of
-        requirements, discussion on scope, designing, coding. Continuous
-        co-ordination with QA team and UAT team.
+        <strong>Writi.ca</strong>
+        <br />
+        Writi is a team of health care professionals, engineers, and developers
+        with a passion for design and quality improvement. We work
+        interprofessionally with management, front-line staff, and
+        industry-leading experts to tackle the challenges facing our health care
+        system.
       </p>
     ),
   },
