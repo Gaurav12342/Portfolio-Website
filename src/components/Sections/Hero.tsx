@@ -14,7 +14,7 @@ const Hero: FC = memo(() => {
     <Section noPadding sectionId={SectionId.Hero}>
       <div className="relative flex h-screen w-full items-center justify-center">
         <Image
-          alt={`${name}-image`}
+          alt={`${name}`}
           className="absolute z-0 h-full w-full object-cover"
           placeholder="blur"
           priority
