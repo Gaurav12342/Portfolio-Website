@@ -45,7 +45,8 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: "React Resume Template",
-  description: "Example site built with Gaurav Pendharkar's react resume template",
+  description:
+    "Example site built with Gaurav Pendharkar's react resume template",
 };
 
 /**
@@ -80,9 +81,10 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "/assets/resume.pdf",
+      href: "/resume.pdf",
       text: "Resume",
       primary: true,
+      idDownload: true,
       Icon: ArrowDownTrayIcon,
     },
     {

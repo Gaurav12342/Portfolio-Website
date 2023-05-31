@@ -1,13 +1,13 @@
-import {StaticImageData} from 'next/image';
-import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
+import { StaticImageData } from "next/image";
+import { FC, ForwardRefExoticComponent, SVGProps } from "react";
 
-import {IconProps} from '../components/Icon/Icon';
+import { IconProps } from "../components/Icon/Icon";
 
 export interface HomepageMeta {
   title: string;
   description: string;
   ogImageUrl?: string;
-  twitterCardType?: 'summary' | 'summary_large';
+  twitterCardType?: "summary" | "summary_large";
   twitterTitle?: string;
   twitterSite?: string;
   twitterCreator?: string;
@@ -31,7 +31,8 @@ interface HeroActionItem {
   href: string;
   text: string;
   primary?: boolean;
-  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, "ref">>;
+  idDownload?: boolean;
 }
 
 /**
@@ -45,7 +46,7 @@ export interface About {
 export interface AboutItem {
   label: string;
   text: string;
-  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, "ref">>;
 }
 
 /**
@@ -54,7 +55,7 @@ export interface AboutItem {
 export interface Stat {
   title: string;
   value: number;
-  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, "ref">>;
 }
 
 /**
@@ -116,17 +117,17 @@ export interface ContactSection {
 }
 
 export const ContactType = {
-  Email: 'Email',
-  Phone: 'Phone',
-  Location: 'Location',
-  Github: 'Github',
-  LinkedIn: 'LinkedIn',
-  Facebook: 'Facebook',
-  Twitter: 'Twitter',
-  Instagram: 'Instagram',
+  Email: "Email",
+  Phone: "Phone",
+  Location: "Location",
+  Github: "Github",
+  LinkedIn: "LinkedIn",
+  Facebook: "Facebook",
+  Twitter: "Twitter",
+  Instagram: "Instagram",
 } as const;
 
-export type ContactType = typeof ContactType[keyof typeof ContactType];
+export type ContactType = (typeof ContactType)[keyof typeof ContactType];
 
 export interface ContactItem {
   type: ContactType;
@@ -135,7 +136,9 @@ export interface ContactItem {
 }
 
 export interface ContactValue {
-  Icon: FC<IconProps> | ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
+  Icon:
+    | FC<IconProps>
+    | ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, "ref">>;
   srLabel: string;
 }
 
