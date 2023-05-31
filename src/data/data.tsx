@@ -120,36 +120,87 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: "Spoken languages",
+    name: "Frontend Skills",
     skills: [
       {
-        name: "English",
-        level: 10,
+        name: "JavaScript",
       },
       {
-        name: "French",
-        level: 4,
+        name: "React.Js",
       },
       {
-        name: "Spanish",
-        level: 3,
+        name: "React-Hooks",
+      },
+      {
+        name: "HookAPI",
+      },
+      {
+        name: "React-Redux",
+      },
+      {
+        name: "TypeScript",
+      },
+      {
+        name: "Tailwind CSS",
+      },
+      {
+        name: "Apollo Client GraphQL",
+      },
+      {
+        name: "NextJs",
+      },
+      {
+        name: "HTML5",
+      },
+      {
+        name: "CSS3",
+      },
+      {
+        name: "SCSS",
+      },
+      {
+        name: "Redux-Toolkit",
+      },
+      {
+        name: "FlexBox",
+      },
+      {
+        name: "Grid",
+      },
+      {
+        name: "Storybook",
+      },
+      {
+        name: "Jest",
+      },
+      {
+        name: "Cypress",
+      },
+      {
+        name: "React Testing library",
       },
     ],
   },
   {
-    name: "Frontend development",
+    name: "Third Party Library Skills",
     skills: [
       {
-        name: "React",
-        level: 9,
+        name: "Lodash",
       },
       {
-        name: "Typescript",
-        level: 7,
+        name: "Moment",
       },
       {
-        name: "GraphQL",
-        level: 6,
+        name: "Styled Component",
+      },
+      {
+        name: "React hook form",
+      },
+      {
+        name: "React Query",
+      },
+      {
+        name: "Axios",
       },
     ],
   },
@@ -158,32 +209,101 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: "Node.js",
-        level: 8,
       },
       {
-        name: "Rust",
-        level: 5,
+        name: "Express.JS",
       },
       {
-        name: "Golang",
-        level: 4,
+        name: "Mongoose.js",
+      },
+      {
+        name: "MongoDB",
+      },
+      {
+        name: "Ejs.js",
+      },
+      {
+        name: "nodemailer",
+      },
+      {
+        name: "Etherial.js",
+      },
+      {
+        name: "MVC pattern with service",
+      },
+      {
+        name: "Swagger doc",
+      },
+      {
+        name: "JWT",
+      },
+      {
+        name: "Bcrypt",
+      },
+      {
+        name: "GraphQL API setup",
       },
     ],
   },
   {
-    name: "Mobile development",
+    name: "Extra Skills",
     skills: [
       {
-        name: "React Native",
-        level: 9,
+        name: "PostMan",
       },
       {
-        name: "Flutter",
-        level: 4,
+        name: "Swagger",
       },
       {
-        name: "Swift",
-        level: 3,
+        name: "Git",
+      },
+      {
+        name: "GitHub",
+      },
+      {
+        name: "JIRA",
+      },
+      {
+        name: "TSLint",
+      },
+      {
+        name: "ESLint",
+      },
+      {
+        name: "YARN",
+      },
+      {
+        name: "NPM",
+      },
+      {
+        name: "Figma",
+      },
+      {
+        name: "WebStrom",
+      },
+      {
+        name: "VsCode",
+      },
+      {
+        name: "Slack",
+      },
+    ],
+  },
+
+  {
+    name: "UI Library Skills",
+    skills: [
+      {
+        name: "Material UI",
+      },
+      {
+        name: "Ant design",
+      },
+      {
+        name: "Core UI",
+      },
+      {
+        name: "Tailwind CSS",
       },
     ],
   },
@@ -266,24 +386,28 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: "April 2007",
+    date: "April 2020",
     location: "Clown college",
-    title: "Masters in Beer tasting",
+    title: "Master Of Computer Application ( MCA )",
     content: (
       <p>
-        Describe your experience at school, what you learned, what useful skills
-        you have acquired etc.
+        MCA is Master's in Computer Applications, it is a Post-graduate/Master's
+        degree which gives hands-on training in Computer Applications. It covers
+        practical concepts in specializations like Cloud Computing, Data Science
+        & Full Stack Development.
       </p>
     ),
   },
   {
-    date: "March 2003",
-    location: "School of Business",
-    title: "What did you study 101",
+    date: "March 2018",
+    location: "Clown college",
+    title: "Bachelor Of Computer Application ( BCA )",
     content: (
       <p>
-        Describe your experience at school, what you learned, what useful skills
-        you have acquired etc.
+        BCA is Bachelor's in Computer Application, it is academic base for an
+        advanced career in Computer Applications. The course of BCA includes
+        database management systems, operating systems, software engineering,
+        web technology and languages such as C, C++, HTML, Java etc
       </p>
     ),
   },
@@ -291,9 +415,9 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: "March 2010 - Present",
-    location: "Awesome Development Company",
-    title: "Senior UX Engineer",
+    date: "March 2021 - Present",
+    location: "Code Winglet Pvt. Ltd",
+    title: "Sr. Front End Developer",
     content: (
       <p>
         Describe work, special projects, notable achievements, what technologies
@@ -303,14 +427,14 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: "March 2007 - February 2010",
-    location: "Garage Startup Studio",
-    title: "Junior bug fixer",
+    date: "September 2020 - February 2021",
+    location: "Coruscate Solutions Pvt. Ltd.",
+    title: "Programmer Analyst",
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies
-        you have been working with, and anything else that would be useful for
-        an employer to know.
+        I am working on React JS as Front-End developer. Analyses of
+        requirements, discussion on scope, designing, coding. Continuous
+        co-ordination with QA team and UAT team.
       </p>
     ),
   },

@@ -63,7 +63,7 @@ export interface Stat {
 
 export interface Skill {
   name: string;
-  level: number;
+  level?: number;
   max?: number;
 }
 
