@@ -49,8 +49,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        A Frontend focused Web Developer building the Frontend of Websites and
-        Web Applications that leads to the success of the overall product
+        A MERN stack developer specializes in crafting the frontend user
+        experience as well as the backend logic using the MERN technology stack. They are adept at
+        building responsive and visually appealing user interfaces that enhance
+        the overall functionality and success of websites and web applications.
       </p>
     </>
   ),
@@ -77,8 +79,8 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
     <>
-      I'm a <strong className="text-stone-100">Frontend Web Developer </strong>
-      building the Front-end of Websites and Web Applications that leads to the
+      I'm a <strong className="text-stone-100">MERN stack Developer </strong>
+      building the Web based Applications that leads to the
       success of the overall products. <br /> <br /> I also like sharing content
       related to the stuff that I have learned over the years in Web Development
       so it can help other people of the Dev Community. Feel free to Connect or
@@ -320,9 +322,25 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: "March 2021 - Present",
+    date: "June 2023 - Present",
+    location: "PortPro",
+    title: "MERN stack developer",
+    content: (
+      <>
+        <p>
+          <strong>PortPro</strong>
+          <br />
+          Working on transportation management software and it's transforming
+          operations for company, freight forwarders, beneficial cargo owners,
+          and brokers.
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "March 2021 - May 2023",
     location: "Code Winglet Pvt. Ltd",
-    title: "Sr. Front End Developer",
+    title: "MERN stack developer",
     content: (
       <>
         <p>
